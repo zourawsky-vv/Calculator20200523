@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HomeWork20200523</string>
+    <string name="empty" />
+    <string name="str1">1</string>
+    <string name="str2">2</string>
+    <string name="str3">3</string>
+    <string name="str4">4</string>
+    <string name="str5">5</string>
+    <string name="str6">6</string>
+    <string name="str7">7</string>
+    <string name="str8">8</string>
+    <string name="str9">9</string>
+    <string name="str0">0</string>
+    <string name="clear">C</string>
+    <string name="bs">BS</string>
+    <string name="pers">%</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
+    <string name="eq">=</string>
+    <string name="span">3</string>
+</resources>
