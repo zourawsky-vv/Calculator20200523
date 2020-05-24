@@ -37,8 +37,10 @@ public class Table_Calculator extends Activity {
                     textViewStack.setText(textViewStack.getText().subSequence(0, textViewStack.getText().length()-1));
                 break;
             case R.id.butPers :
+                if (textViewStack.getText().length() != 0 && !isDigit(textViewStack.getText().charAt(textViewStack.getText().length() - 1)))
+                    textViewStack.setText(textViewStack.getText().subSequence(0, textViewStack.getText().length()-1));
                 textViewStack.append(getResources().getString(R.string.pers));
-                textViewRes.setText(Integer.parseInt(textViewRes.getText().toString()) * 100);
+                textViewRes.setText(String.format("%d",Integer.parseInt(textViewRes.getText().toString()) * 100));
                 break;
             case R.id.butPlus :
                 if (textViewStack.getText().length() - 1 == -1) break;
